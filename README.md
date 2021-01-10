@@ -1,5 +1,9 @@
 # pychu
 
+[![pytest](https://github.com/doom/pychu/workflows/pytest/badge.svg)](https://github.com/doom/pychu/actions?query=branch%3Amain)
+[![pypi](https://img.shields.io/pypi/v/pychu.svg)](https://pypi.python.org/pypi/pychu)
+[![license](https://img.shields.io/github/license/doom/pychu.svg)](https://github.com/doom/pychu/blob/main/LICENSE)
+
 Layered configuration loading built on [Pydantic](https://pydantic-docs.helpmanual.io/).
 
 With Pychu, you can define your program's configuration as a Pydantic model, then load it from multiple providers.
